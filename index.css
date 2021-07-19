@@ -228,9 +228,6 @@ img{
   }
 
 
-
-
-  
   .typing-demo {
     width: 22ch;
     animation: typing 2s steps(22), blink .5s step-end infinite alternate;
@@ -251,4 +248,112 @@ img{
     50% {
       border-color: transparent;
     }
+  }
+
+
+  @media all and (max-width: 500px){
+
+    .navbar ul{
+        display: flex;
+        list-style: none;
+        width: unset;
+    }
+    
+    .navbar ul li{
+        margin: unset;
+        padding: 20px;
+    }
+    
+    .navbar ul li a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: #62fad6;
+    }
+    
+    .navbar ul li a:hover{
+        color:#ccd6f6;
+    }
+    
+    section {
+        display: flexbox;
+        flex-direction: column;
+        /*align-items: center;*/
+        /*text-align: center;*/
+        height: 100vh;
+        width: 80%;
+        margin-left: 18%;
+        margin-top: unset;
+    }
+    #home{
+        height: 100vh;
+    }
+    
+    h1::after{
+        content: "";
+        display: inline-block;
+        width: 300px;
+        margin-bottom: 10px;
+        height: 1px;
+        margin-left: 20px;
+        background-color: #233554;
+    }
+    
+    
+    #about-section {
+        height: 150vh;
+    }
+
+    article{
+        height: 80%;
+        width: 80%;
+    }
+
+    #about-section > *{
+        float: left;
+        width: 80%;
+    }
+    #about-section p{
+        max-height: 50%; 
+        height: unset;
+        margin-top: 10px;
+    }
+    section p{
+        font-size: 20px;
+        line-height: 1.2;
+        width: 80%;
+        height: 80%;
+    }
+
+
+    
+    #ervaring{
+        margin-top: 200%;
+        height: 100;
+    }
+
+    .tab {
+        float: left;
+        width: 30%;
+        height: 20%;
+    }
+    
+    /* Style the tab content */
+    .tabcontent {
+        float: right;
+        width: 50%;
+        height: 100%;
+    }
+  .project-container{
+      width: 90%;
+   }
+
+   .typing-demo {
+    width: 85%;
+    margin-left: unset;
+    font-size: 1.7em;
+  }
+
+  .container{
+      overflow-x: hidden;
+  }
   }

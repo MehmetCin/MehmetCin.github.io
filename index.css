@@ -251,7 +251,7 @@ img{
   }
 
 
-  @media all and (max-width: 500px){
+  @media all and (max-width: 900px){
 
     .navbar ul{
         display: flex;
@@ -280,8 +280,9 @@ img{
         /*align-items: center;*/
         /*text-align: center;*/
         height: 100vh;
-        width: 80%;
-        margin-left: 18%;
+        width: 100%;
+        position: relative;
+        margin-left: 7%;
         margin-top: unset;
     }
     #home{
@@ -305,13 +306,21 @@ img{
 
     article{
         height: 80%;
-        width: 80%;
+        width: 100%;
     }
+
+    
 
     #about-section > *{
         float: left;
-        width: 80%;
+        width: 100%;
     }
+
+    #foto{
+        width: 83%;
+        margin-left: 10px;
+    }
+
     #about-section p{
         max-height: 50%; 
         height: unset;

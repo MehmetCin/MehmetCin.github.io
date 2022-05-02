@@ -45,6 +45,10 @@ section h1{
     line-height: 1.2;
 }
 
+b{
+    color: #ccd6f6;
+}
+
 h1::after{
     content: "";
     display: inline-block;
@@ -198,6 +202,7 @@ img{
       background-color: #112240;
       height: 100%;
       padding: 2rem 1.75rem;
+      margin-bottom: 50px;
   }
   .card-header{
     margin-top: -20px;
@@ -367,3 +372,8 @@ img{
         overflow-x: hidden;
     }
   }
+
+  .overzicht{
+      height: unset;
+  }
+  
